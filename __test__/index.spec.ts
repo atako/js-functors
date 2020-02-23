@@ -1,6 +1,6 @@
 import { Identity } from '../src/index'
 
-describe('init test ', () => {
+describe.skip('init test ', () => {
   test('first', () => {
     const trace = x => {
       console.log(x)
