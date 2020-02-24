@@ -7,3 +7,5 @@ export const Identity = value => ({
 })
 
 export const maybe = x => fn => maybe(x && fn ? fn(x) : null)
+
+const collection = (a, e) => a.concat([e])
